@@ -1,0 +1,109 @@
+#intro {
+    /* height: calc(100vh- 4rem); */
+    height: auto;
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.bg {
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+
+.Home {
+    height: 30vh;
+    width: 100vw;
+    background: linear-gradient(rgb(147, 123, 102), rgb(255, 255, 255));
+    color: rgb(0, 0, 0);
+    padding: 6rem 10rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Title {
+    font-size: 4.7rem;
+    font-family: 'WindSong', cursive;
+    font-weight: 590;
+}
+
+.subtitle {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 7px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.collagecoffee {
+    height: 68vh;
+    width: 80vw;
+    position: relative;
+    left: 10vw;
+    bottom: 5vh;
+}
+
+.collage2 {
+    height: 68vh;
+    width: 80vw;
+    position: relative;
+    left: 10vw;
+    bottom: 5vh;
+    display: none;
+}
+
+.clipArt {
+    height: 40vh;
+    position: relative;
+    top: 2vh;
+    left: 40vh;
+}
+
+
+@media screen and (max-width:1035px) {
+
+    .subtitle {
+        font-size: 0.9rem;
+    }
+
+    .Home {
+        height: 45vh;
+        padding: 3rem 3rem;
+    }
+    
+    .collagecoffee {
+        height: 60vh;
+    }
+
+    .collagecoffee {
+        display: none;
+    }
+
+    .collage2 {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width:800px) {
+    .Home {
+        padding: 1rem 1rem;
+        height: 35vh;
+    }
+
+    .Title {
+        font-size: 3.3rem;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .Title {
+        font-size: 2.5rem;
+    }
+}

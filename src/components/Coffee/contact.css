@@ -1,0 +1,43 @@
+#contact {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+.card {
+    width: 30vh;
+    height: 38vh;
+    box-shadow: 0px 3px 7.5px rgb(174, 157, 135);
+    display:inline-table;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.image {
+    height: 22vh;
+    padding-top: 2rem;
+    padding-left: 2.5rem;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    font-size: 1.15rem;
+}
+
+@media screen and (max-width:1000px) {
+    .card {
+        width: 24vh;
+        height: 20vh;
+    }
+
+    .image {
+        height: 18vh;
+    }
+
+    .info {
+        font-size: 1rem;
+    }
+}

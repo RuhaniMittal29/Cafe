@@ -1,0 +1,59 @@
+#coffee {
+    /* height: calc(90vh - 4rem); */
+    height: auto;
+    width: 100vw;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    padding: 1rem 2rem;
+    padding-top: 3rem;
+}
+
+.bg {
+    position: absolute;
+    top: -4rem;
+    right: 0;
+    z-index: -1;
+    object-fit: cover;
+    height: 60vh;
+}
+
+.COFFEE {
+    margin-bottom: 1rem;
+    width: auto;
+    height: 25vh;
+    background-image: url("../../assets/panel12.png");
+    background-size: 97vw 26vh;
+    opacity: 0.9;
+}
+
+.topic {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'WindSong', cursive; */
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+.title1 {
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+}
+
+@media screen and (max-width:1000px) {
+    #coffee {
+        width: 100vw;
+    }
+
+    .COFFEE {
+        height: 14vh;
+        width: auto;
+        background-size: auto 15vh;
+    }
+
+    .popular {
+        font-size: 1.15rem;
+    }
+}
