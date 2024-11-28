@@ -1,4 +1,4 @@
-## Brewful Bliss Cafe ☕✨
+# Brewful Bliss Cafe ☕✨
 
 Brewful Bliss Cafe is a dynamic web application designed to enhance the cafe experience by offering a seamless interface for exploring the menu, history of the cafe, and discovering special promotions. Built with a focus on user experience, the project showcases a modern and intuitive design, making it easy for customers to navigate and enjoy their favorite beverages and treats.
 
